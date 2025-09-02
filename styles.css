@@ -7,6 +7,13 @@ body {
   background-color: #5BFFDE;
 }
 
+.hamgurger{
+  width: 32px;
+  height: 32px;
+
+  display: none;
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -52,12 +59,17 @@ section {
     flex-direction: column;
   }
 
-  .villain{
+  .villain 
+  .honglu{
     width: 100%;
   }
 
-  .honglu{
-    width: 100%;
+  .hamgurger{
+    display: flex;
+  }
+
+  .navigationhome{
+    display: none ;
   }
 }
 
@@ -66,8 +78,4 @@ footer {
   /* display: flex;
   justify-content: center; */
   text-align: center;
-}
-
-.hamgurger{
-  width: 30px;
 }
