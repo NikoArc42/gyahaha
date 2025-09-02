@@ -14,11 +14,17 @@ header {
   padding: 0 16px;
 }
 
-ul {
+.navigationhome {
   display: flex;
   justify-content: center;
   gap: 16px;
   list-style-type: none;
+}
+
+@media (max-width: 426px) {
+body {
+  background-color: #5BFFDE;
+}
 }
 
 /* MAIN */
