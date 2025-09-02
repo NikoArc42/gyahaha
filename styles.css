@@ -22,7 +22,7 @@ header {
   list-style-type: none;
 }
 
-@media (max-width: 426px) {
+@media (landscape) and (min-width: 427px) and (max-width: 1023) {
 body {
   background-color: #5BFFDE;
 }
@@ -31,6 +31,34 @@ body {
 /* MAIN */
 section {
   height: 100vh;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.villain{
+  width: 50%;
+}
+
+.honglu{
+  width: 50%;
+}
+
+@media (max-width: 426px) {
+  .hero{
+    flex-direction: column;
+  }
+
+  .villain{
+    width: 100%;
+  }
+
+  .honglu{
+    width: 100%;
+  }
 }
 
 /* FOOTER */
@@ -42,8 +70,4 @@ footer {
 
 .hamgurger{
   width: 30px;
-}
-
-.honglu{
-  width: 100px;
 }
